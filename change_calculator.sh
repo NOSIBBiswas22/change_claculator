@@ -48,7 +48,7 @@ loading_animation() {
     done
     echo -ne "\033[K"  # Clear the line
 }
-
+clear
 # Main program
 while true; do
     echo " "
