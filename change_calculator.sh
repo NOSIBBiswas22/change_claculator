@@ -6,6 +6,8 @@ CYAN='\033[0;36m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
+clear
+
 # Welcome message
 echo -e "${GREEN}=== Change Calculator ===${NC}"
 
@@ -48,7 +50,7 @@ loading_animation() {
     done
     echo -ne "\033[K"  # Clear the line
 }
-clear
+
 # Main program
 while true; do
     echo " "
